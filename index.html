@@ -8,8 +8,43 @@
 </head>
 <body>
 
-    
-    
+    <div class="ImageContainer">
+
+        <div class="slide fade">
+            <div class="number">1/4</div>
+            <img src="assets/img/1.jpg" alt="" width="100%" height="600px">
+            <div class="text">Caption One</div>
+        </div>
+
+        <div class="slide fade">
+            <div class="number">2/4</div>
+            <img src="assets/img/2.jpg" alt="" width="100%" height="600px">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="slide fade">
+            <div class="number">3/4</div>
+            <img src="assets/img/3.jpg" alt="" width="100%" height="600px">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="slide fade">
+            <div class="number">4/4</div>
+            <img src="assets/img/4.jpg" alt="" width="100%" height="600px">
+            <div class="text">Caption Fore</div>
+        </div>
+
+        <span class="prev" onclick="controlSlides(-1)">&#10094;</span>
+        <span class="next" onclick="controlSlides(1)">&#10095;</span>
+
+    </div>
+
+    <div class="DotContainer">
+        <span class="dot" onclick="dotSlide(1)"></span>
+        <span class="dot" onclick="dotSlide(2)"></span>
+        <span class="dot" onclick="dotSlide(3)"></span>
+        <span class="dot" onclick="dotSlide(4)"></span>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
